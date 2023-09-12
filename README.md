@@ -31,3 +31,4 @@ Enjoy!!!
 ## Acknowledgments
 
 * https://gist.github.com/PurpleBooth/109311bb0361f32d87a2. A very complete template for README.md files.
+* https://www.conventionalcommits.org/en/v1.0.0/. A specification for adding human and machine readable meaning to commit messages
