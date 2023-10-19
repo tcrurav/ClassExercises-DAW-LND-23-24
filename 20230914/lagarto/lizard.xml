@@ -1,0 +1,48 @@
+<!-- A well formed document complies with general syntax language 
+     An element consists of:
+       * tag
+       * attributes
+       * value
+       * content 
+-->
+<!-- Short cuts
+  Ctrl - ç
+  Ctrl - s 
+-->
+<!-- 
+  #IMPLIED : OPTIONAL ATTRIBUTE
+  #REQUIRED : MANDATORY ATTRIBUTE
+-->
+<!-- A valid document complies with a DTD -->
+
+<!DOCTYPE lizards SYSTEM "lizard.dtd">
+
+<lizards>
+  <lizard skin="smooth">
+    <color>marrón</color>
+    <length>10</length>
+    <units>cm</units>
+    <islands>
+      <island>Gran Canaria</island>
+      <island>Fuerteventura</island>
+    </islands>
+  </lizard>
+  <lizard>
+    <color>verde</color>
+    <length>5</length>
+    <units>cm</units>
+    <islands>
+      <island>El Hierro</island>
+      <island>La Palma</island>
+      <island>Tenerife</island>
+    </islands>
+  </lizard>
+  <lizard>
+    <color>gris</color>
+    <length>50</length>
+    <units>cm</units>
+    <islands>
+      <island>El Hierro</island>
+    </islands>
+  </lizard>
+</lizards>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumno SYSTEM "student.dtd">
+<alumno dni="52845888a">
+  <nombre>Joaquín</nombre>
+  <apellidos>Pérez Pérez</apellidos>
+  <modulos>
+    <modulo>LND</modulo>
+    <modulo>FOL</modulo>
+  </modulos>
+  <direccion>
+    <calle>Guanarteme</calle>
+    <numero>7</numero>
+  </direccion>
+</alumno>

@@ -1,0 +1,8 @@
+<!ELEMENT lizards (lizard*)>
+<!ELEMENT lizard (color,length,units,islands)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT length (#PCDATA)>
+<!ELEMENT units (#PCDATA)>
+<!ELEMENT islands (island*)>
+<!ELEMENT island (#PCDATA)>
+<!ATTLIST lizard skin CDATA #IMPLIED>

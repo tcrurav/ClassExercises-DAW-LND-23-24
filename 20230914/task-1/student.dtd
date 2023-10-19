@@ -1,0 +1,1 @@
+<!ATTLIST alumno dni CDATA #REQUIRED>
