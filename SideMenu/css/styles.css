@@ -18,6 +18,7 @@
 
 #side-menu{
   position: fixed;
+  left: -90vw;
   z-index: 10000;
   width: 90vw;
   height: 100vh;
@@ -25,12 +26,13 @@
 }
 
 .side-menu-hidden{
-  transition: all 1s;
+  transition: all 1s ease-in-out;
   transform: translateX(-90vw);
 }
 
 .side-menu-visible{
-  left: 0;
+  transition: all 1s ease-in-out;
+  transform: translateX(90vw);
 }
 
 #side-menu i {

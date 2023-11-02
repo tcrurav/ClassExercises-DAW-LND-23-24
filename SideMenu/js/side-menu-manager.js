@@ -1,4 +1,4 @@
-function initialize(){
+function initialize() {
   const headerMenuIcon = document.getElementById("header-menu-icon");
   headerMenuIcon.addEventListener("click", showSideMenu);
 
@@ -6,14 +6,20 @@ function initialize(){
   sideMenuCloseIcon.addEventListener("click", closeSideMenu);
 }
 
-function showSideMenu(){
+function showSideMenu() {
   const sideMenu = document.getElementById("side-menu");
-  sideMenu.style.visibility = "visible";
+  if (sideMenu.classList.contains("side-menu-hidden")) {
+    sideMenu.classList.remove("side-menu-hidden");
+  }
+  sideMenu.classList.add("side-menu-visible");
 }
 
-function closeSideMenu(){
+function closeSideMenu() {
   const sideMenu = document.getElementById("side-menu");
-  sideMenu.style.visibility = "hidden";
+  if (sideMenu.classList.contains("side-menu-visible")) {
+    sideMenu.classList.remove("side-menu-visible");
+  }
+  sideMenu.classList.add("side-menu-hidden");
 }
 
 initialize();
